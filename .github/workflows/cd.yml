@@ -13,5 +13,10 @@ jobs:
       - name: Baixar código
         uses: actions/checkout@v4
 
+<<<<<<< HEAD
       - name: Build da imagem Docker
         run: docker build -t lista-tarefas .
+=======
+      - name: Build Docker
+        run: docker build -t lista-tarefas .
+>>>>>>> 593ca67cc55c5af95e28dfb0994d16fd77578d74

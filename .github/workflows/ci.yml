@@ -23,5 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+<<<<<<< HEAD
       - name: Validar sintaxe
         run: python -m py_compile app.py
+=======
+      - name: Validar código
+        run: python -m py_compile app.py
+>>>>>>> 593ca67cc55c5af95e28dfb0994d16fd77578d74
